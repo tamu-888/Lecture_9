@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: rgba(249, 249, 249, 1);
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 174px;
+    border: 2px solid green;
+}
+
+.header-content {
+    height: 174px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1280px;
+    margin: auto;
+}
+
+.header-links {
+    display: flex;
+    column-gap: 46px;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 46px;
+}
+
+.nav-list li a {
+    color: #000;
+}
+
+.help-btn {
+    padding: 12px 27px;
+    background-color: #75bf7a;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* main-section */
+.main-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 1280px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.text-content {
+    width: 557px;
+}
+
+.text-content h1 {
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 900;
+}
+
+.text-content p {
+    color: #9e9da2;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 25px 0px 62px 0px;
+}
+
+.download {
+    padding: 13px 32px;
+    color: #fff;
+    background-color: #000;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 24px;
+    column-gap: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.apply {
+    width: 1280px;
+    height: 166px;
+    border-radius: 10px;
+    background-color: #75bf7a;
+    padding: 0px 72px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apply h3 {
+    font-size: 24px;
+    color: #fff;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.test {
+    display: flex;
+}
+
+/* ამის შექმნა დამჭირდა რომ გამესწორებინა input და button. შენთან კოდში მგონი არაა */
+
+.number-input {
+    width: 449px;
+    height: 67px;
+    padding-left: 35px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.number-input ::placeholder {
+    font-size: 20px;
+    color: #dadada;
+}
+
+.apply-btn {
+    padding: 19px 52px;
+    margin-left: 11px;
+    color: #fff;
+    width: 260px;
+    height: 67px;
+    border-radius: 4.392971038818359px;
+    background-color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+}
+
+/* benefites */
+.benefites {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.benefites h2 {
+    margin: 0px auto;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 50px;
+    color: rgba(117, 191, 122, 1);
+}
+
+.benefites span {
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 50px;
+    color: #000000;
+}
+
+.card-one {
+    width: 1060px;
+    height: 304px;
+    border-radius: 10px;
+    border: 2px solid green;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 25px 110px 24px 46px;
+    display: flex;
+    column-gap: 262px;
+    margin: 52px 233px 0px 145px;
+}
+
+.card-two {
+    width: 1060px;
+    height: 304px;
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 39px 161px 38px 110px;
+    display: flex;
+    column-gap: 260px;
+    margin: 56px 150px 0px 230px;
+}
+
+.card-three {
+    width: 1060px;
+    height: 304px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 40px 110px 30px 38px;
+    display: flex;
+    column-gap: 79px;
+    margin: 52px 233px 0px 145px;
+}
+
+.card1_header {
+    display: flex;
+    align-items: center;
+    column-gap: 37px;
+
+
+}
+
+.card1_header h3 {
+    color: #75BF7A;
+    font-size: 88px;
+    font-weight: 500;
+    line-height: 119px;
+    width: 107px;
+    height: 119px;
+
+}
+
+.card1_header h4 {
+    color: #000000;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 33px;
+    width: 218px;
+    height: 65px;
+}
+
+.card1_text p {
+    width: 385px;
+    height: 47px;
+    color: #9E9DA2;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-top: 20px;
+}
+
+.card3_text p {
+    width: 520px;
+    color: #9E9DA2;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-top: 31px;
+}
+
+.card3_header {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    /* width: 385px; */
+
+}
+
+.card3_header h3 {
+    color: #75BF7A;
+    font-size: 88px;
+    font-weight: 500;
+    line-height: 119px;
+    width: 107px;
+    height: 119px;
+
+}
+
+.card3_header h4 {
+    color: #000000;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 33px;
+    width: 218px;
+    height: 65px;
+}
