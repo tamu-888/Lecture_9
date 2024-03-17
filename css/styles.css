@@ -8,7 +8,10 @@ body {
 header {
     width: 100%;
     height: 174px;
-    border: 2px solid green;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    z-index: 10;
 }
 
 .header-content {
@@ -55,7 +58,6 @@ header {
 
 .main {
     width: 1280px;
-    border: 2px solid red;
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -144,12 +146,105 @@ header {
     font-weight: 700;
 }
 
+
+/* HOW TERE WORKS */
+.header-how {
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: center;
+}
+
+.header-how span {
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 50px;
+    color: #75BF7A;
+}
+
+.header-descr {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #9E9DA2;
+    width: 620px;
+    height: 96px;
+    margin: 25px auto 65px auto;
+    text-align: center;
+}
+
+.how-cards {
+    width: 1280px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+
+.how-cardone {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.how-cardtwo {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.how-cardthree {
+    height: 500px;
+    width: 400px;
+    text-align: start;
+}
+
+.middle-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left-descr {
+    width: 290px;
+    margin-bottom: 84px;
+    text-align: end;
+}
+
+.right-descr {
+    width: 290px;
+    margin-bottom: 84px;
+}
+
+.how-header {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.how-p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #9E9DA2;
+}
+
+.dots {
+    width: 65px;
+    height: 12.77px;
+    margin: 0px auto 87px auto;
+}
+
 /* benefites */
 .benefites {
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
 
 .benefites h2 {
@@ -171,7 +266,6 @@ header {
     width: 1060px;
     height: 304px;
     border-radius: 10px;
-    border: 2px solid green;
     background-color: rgba(255, 255, 255, 1);
     padding: 25px 110px 24px 46px;
     display: flex;
@@ -183,7 +277,6 @@ header {
     width: 1060px;
     height: 304px;
     border-radius: 10px;
-    border: 2px solid red;
     background-color: rgba(255, 255, 255, 1);
     padding: 39px 161px 38px 110px;
     display: flex;
@@ -195,7 +288,6 @@ header {
     width: 1060px;
     height: 304px;
     border-radius: 10px;
-    border: 2px solid blue;
     background-color: rgba(255, 255, 255, 1);
     padding: 40px 110px 30px 38px;
     display: flex;
@@ -253,8 +345,6 @@ header {
     display: flex;
     align-items: center;
     column-gap: 25px;
-    /* width: 385px; */
-
 }
 
 .card3_header h3 {
@@ -274,4 +364,42 @@ header {
     line-height: 33px;
     width: 218px;
     height: 65px;
+}
+
+/* footer */
+.ft-sedctionone {
+    width: 1440px;
+    height: 309px;
+    padding: 71px 80px 38px 148px;
+    margin-top: 275px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+
+}
+
+.ft-sectiontwo {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #75BF7A;
+    text-align: center;
+
+}
+
+.be-our-friend h4 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #272042;
+    margin-bottom: 21px;
+}
+
+.be-our-friend p {
+    color: #8B8BA5;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 15px;
 }
